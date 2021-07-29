@@ -1,0 +1,14 @@
+.container #searchArea input:focus ~ #searched {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.container .btn {
+  background-color: #204080;
+}
+
+.container .btn:hover {
+  background-color: #4f75c2;
+}
+/*# sourceMappingURL=style.css.map */

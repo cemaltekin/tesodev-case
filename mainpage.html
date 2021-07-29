@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--TAİLWİND CSS CDN-->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <!--TAİLWİND CSS CDN-->
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/style/style.css">
+    <!--CSS-->
+    <!--RESPONSİVE CSS-->
+    <link rel="stylesheet" href="assets/css/responsive/responsive.css">
+    <!--RESPONSİVE CSS-->
+
+    <title>Tesodev Case</title>
+</head>
+
+<body>
+    <div class="container mx-auto h-screen flex flex-col justify-center items-center -mt-20">
+        <div class="">
+            <img src="assets/img/logo.svg" alt="">
+            <span class="text-center ml-60">Search web app</span>
+        </div>
+        <div id="searchArea" class="flex gap-4 w-full p-4 md:p-0 md:w-1/2 mx-auto mt-12 relative">
+            <input id="search" type="text"
+                class="text-center flex-1 focus:outline-none bg-transparent border rounded-lg flex-1 px-4"
+                placeholder="Enter the data you want to search.">
+            <button id="searchBtn" class="btn text-white w-32 h-12 rounded-lg">Search</button>
+            <div id="searched"
+                class="absolute left-0 bg-white top-full mt-10 rounded-lg border border-gray-500 hidden flex-col gap-4 px-4 py-2"
+                style="width: 624px;">
+                
+                
+                <a href="#" class="mt-10 flex justify-center">Show More...</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--JS-->
+    <script src="assets/js/app.js"></script>
+    <!--JS-->
+</body>
+
+</html>

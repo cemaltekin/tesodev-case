@@ -1,0 +1,15 @@
+.container {
+  #searchArea {
+    input {
+      &:focus ~ #searched {
+        display: flex !important;
+      }
+    }
+  }
+  .btn {
+    background-color: #204080;
+    &:hover {
+      background-color: #4f75c2;
+    }
+  }
+}
